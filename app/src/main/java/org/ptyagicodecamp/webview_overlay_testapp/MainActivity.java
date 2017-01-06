@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import org.ptyagicodecamp.webview_overlay_lib.WebViewOverlay;
+import org.pcc.webviewOverlay.WebViewOverlay;
 
 public class MainActivity extends AppCompatActivity {
 

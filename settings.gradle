@@ -1,1 +1,1 @@
-include ':app', ':webview-overlay-lib'
+include ':app', ':WebViewOverlay'

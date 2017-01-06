@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/WebViewOverlay/WebViewOverlay.iml" filepath="$PROJECT_DIR$/WebViewOverlay/WebViewOverlay.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/webview-overlay.iml" filepath="$PROJECT_DIR$/webview-overlay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webview-overlay-lib/webview-overlay-lib.iml" filepath="$PROJECT_DIR$/webview-overlay-lib/webview-overlay-lib.iml" />
     </modules>
   </component>
 </project>
