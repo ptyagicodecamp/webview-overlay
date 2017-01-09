@@ -1,4 +1,4 @@
-# WebViewOverlay widget
+# Android WebViewOverlay Widget
 A widget to load WebView in an Overlay.
 
 ## Motivation
