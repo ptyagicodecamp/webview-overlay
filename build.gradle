@@ -17,9 +17,12 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        flatDir {
-            dirs 'libs'
+        maven {
+            url  "http://jcenter.bintray.com"
         }
+//        flatDir {
+//            dirs 'libs'
+//        }
     }
 }
 

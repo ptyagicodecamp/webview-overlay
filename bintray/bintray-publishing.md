@@ -62,7 +62,7 @@ ext {
     bintrayRepo = 'WebViewOverlay'
     bintrayName = 'WebViewOverlay'
 
-    publishedGroupId = 'org.ptyagicodecamp'
+    publishedGroupId = 'org.pcc'
     libraryName = 'WebViewOverlay'
     artifact = 'WebViewOverlay'
 
@@ -73,9 +73,9 @@ ext {
 
     libraryVersion = '1.0.0'
 
-    developerId = 'ptyagicodecamp'
-    developerName = 'Priyanka Tyagi'
-    developerEmail = 'ptyagicodecamp@gmail.com'
+    developerId = 'developerId'
+    developerName = 'Developer Name'
+    developerEmail = 'developer@email.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -95,10 +95,30 @@ That's all you ve to do in order to configure you Android Studio project.
 
 ### Uploading to Bintray:
 CD to Root of Android Studio Project, and run these commands:
+```
 gradlew install
 gradlew bintrayUpload
+```
 
 That’s it ! your artifact will be uploaded to Bintray.
+
+### Link to JCenter
+* Your package needs to be linked to JCenter to be able to be resolved.
+![Alt Text](./screenshots/add_to_jcenter.png)
+
+* It'll take couple of hours to get request approved. Once approved, you'll see you package like this:
+![Alt Text](./screenshots/linked_to_jcenter.png)
+
+***Note***: You will have to wait for couple of hours before it'll be synced on JCenter.
+You can check if its available by going to "http://jcenter.bintray.com/<path/to/package>"
+
+
+### Start using your hosted library:
+
+Now you can reference `WebViewOverlay` library from your project's `build.gradle` like this:
+```
+compile 'org.ptyagicodecamp:WebViewOverlay:1.0.0'
+```
 
 
 
