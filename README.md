@@ -1,12 +1,11 @@
-A widget to load WebView as an Overlay.
-
-The source code for WebViewOverlay widget library is located at [Github](https://github.com/ptyagicodecamp/webview-overlay)
+# WebViewOverlay widget
+A widget to load WebView in an Overlay.
 
 ## Motivation
-I created a widget that can load a WebView widget in a closable overlay/modal. I wanted to re-use
-this new, shiny widget in my other projects as well to provide me easy way to load a WebView in a
-full-screen modal rather keep writing the same piece of code again and over again.
-So, decided to upload WebViewOverlay library to JCenter.
+I needed a widget that can load a url in WebView in a full-screen closable overlay/modal.
+I wanted to re-use this new, shiny widget in my other projects as well. So, I decided to upload
+WebViewOverlay library in a central artifact repository. I chose JCenter because its one of the
+largest artifact repository for Java and Android libraries and has good integration with Android Studio IDE.
 
 ## WebViewOverlay Widget
 WebViewOverlay widget loads a WebView widget in a full-screen pop-up. It has option to close it by
@@ -63,4 +62,3 @@ public void openWebViewOverlayWithTitle(View view) {
     webViewOverlay.loadWebViewOverlay(url, null, "WebViewOverlay Demo");
 }
 ```
->>>>>>> done with readme
